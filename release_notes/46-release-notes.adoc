@@ -584,8 +584,8 @@ This release addresses the following security vulnerabilities:
 This release addresses the following issues:
 
 //ROX-30945
-* Before this update, product container images were created with an older technology stack, resulting in inconsistent metadata such as container labels and Software Bill of Materials (SBOM) location. As a consequence, third-party integrations that relied on this metadata were potentially impacted.
+* Before this update, product container images were created with an older technology stack, resulting in inconsistent metadata such as container labels and the Software Bill of Materials (SBOM) location. As a consequence, third-party integrations that relied on this metadata were potentially impacted.
 +
-With this release, container images are created with a new, updated technology stack. As a result, the metadata is now standardized, consistent and compliant with Red Hat best practices, ensuring stability for third-party integrations.
+With this release, container images are created with a new, updated technology stack. As a result, the metadata is now standardized, consistent, and compliant with Red{nbsp}Hat best practices, ensuring stability for third-party integrations.
 
 include::modules/image-versions.adoc[leveloffset=+1]
